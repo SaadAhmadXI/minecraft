@@ -21,5 +21,21 @@ jobs:
 
       - name: Start Minecraft server
         run: |
-          ipconfig
+          import java.net.InetAddress;
+import java.net.UnknownHostException;
+
+public class Main {
+    public static void main(String[] args) {
+        try {
+            InetAddress ipAddress = InetAddress.getLocalHost();
+            String ip = ipAddress.getHostAddress();
+            int port = 25565; // Assuming default Minecraft server port is 25565
+            System.out.println("Server IP address: " + ip);
+            System.out.println("Server port: " + port);
+        } catch (UnknownHostException e) {
+            System.err.println("Unable to determine IP address: " + e.getMessage());
+        }
+    }
+}
+
           java -Xmx1024M -Xms1024M -jar server.jar nogui
