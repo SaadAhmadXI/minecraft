@@ -1,0 +1,24 @@
+name: Minecraft Server
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3  # Update to use the latest version of actions/checkout
+
+      - name: Set up Java
+        uses: actions/setup-java@v3  # Update to use the latest version of actions/setup-java
+        with:
+          distribution: 'adopt'
+          java-version: '21'  # Install Java 21 for running the Minecraft server
+
+      - name: Start Minecraft server
+        run: |
+          java -Xmx1024M -Xms1024M -jar server.jar nogui
