@@ -11,15 +11,13 @@ jobs:
 
     steps:
       - name: Checkout code
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3  # Update to use Node.js 20 compliant version of actions/checkout
 
-                  - name: Setup Java JDK
-                  
-        uses: actions/setup-java@v4.2.1
+      - name: Setup Java JDK
+        uses: actions/setup-java@v3  # Update to use Node.js 20 compliant version of actions/setup-java
         with:
-          java-version: '21'
-          distribution: 'adopt'
-          
+          java-version: '21'  # Set the Java version to the desired version, e.g., '14'
+
       - name: Start Minecraft server
         run: |
           java -Xmx1024M -Xms1024M -jar server.jar nogui
