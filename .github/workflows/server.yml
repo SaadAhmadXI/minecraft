@@ -26,7 +26,8 @@ jobs:
           # Get the IP address dynamically
           IP_ADDRESS=$(hostname -I | cut -d' ' -f1)
           echo "Server IP address: $IP_ADDRESS"
-          echo "Server is listening on port: $SERVER_PORT"
+          PORT=$(netstat -tlnp | awk '/docker-proxy/ && /LISTEN/ {split($4,a,":"); print a[length(a)]}')
+          echo "Port number: $PORT"
+          echo "Server is listening on port: $PORT"
           # Additional setup commands for starting the Minecraft server
           java -Xmx1024M -Xms1024M -jar server.jar nogui
-          ipconfig
