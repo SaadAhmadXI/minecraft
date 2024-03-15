@@ -1,0 +1,51 @@
+[11:48:04] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[11:48:09] [ServerMain/INFO]: Loaded 7 recipes
+[11:48:10] [ServerMain/INFO]: Loaded 1271 advancements
+[11:48:11] [Server thread/INFO]: Starting minecraft server version 1.20.4
+[11:48:11] [Server thread/INFO]: Loading properties
+[11:48:11] [Server thread/INFO]: Default game type: SURVIVAL
+[11:48:11] [Server thread/INFO]: Generating keypair
+[11:48:11] [Server thread/INFO]: Starting Minecraft server on *:25565
+[11:48:11] [Server thread/INFO]: Using default channel type
+[11:48:12] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[11:48:12] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[11:48:12] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[11:48:12] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[11:48:12] [Server thread/INFO]: Preparing level "world"
+[11:48:18] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[11:48:29] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[11:48:29] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[11:48:29] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[11:48:30] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[11:48:30] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[11:48:30] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[11:48:30] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[11:48:30] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[11:48:30] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[11:48:30] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[11:48:30] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[11:48:30] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[11:48:30] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[11:48:30] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[11:48:30] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[11:48:30] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[11:48:30] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[11:48:30] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[11:48:30] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[11:48:30] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[11:48:30] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[11:48:30] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[11:48:30] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[11:48:30] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[11:48:30] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[11:48:31] [Worker-Main-3/INFO]: Preparing spawn area: 3%
+[11:48:31] [Worker-Main-2/INFO]: Preparing spawn area: 16%
+[11:48:32] [Worker-Main-3/INFO]: Preparing spawn area: 66%
+[11:48:32] [Server thread/INFO]: Time elapsed: 14303 ms
+[11:48:32] [Server thread/INFO]: Done (20.678s)! For help, type "help"
+[11:48:36] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2008ms or 40 ticks behind
+[11:48:49] [Server thread/INFO]: Saad_Ahmad[/127.0.0.1:65032] logged in with entity id 218 at (-20.26912348995453, 125.0, 8.73372033026963)
+[11:48:49] [Server thread/INFO]: Saad_Ahmad joined the game
+[11:49:28] [Server thread/INFO]: Made Saad_Ahmad a server operator
+[11:49:54] [Server thread/INFO]: Saad_Ahmad lost connection: Disconnected
+[11:49:54] [Server thread/INFO]: Saad_Ahmad left the game
