@@ -20,8 +20,6 @@ jobs:
           java-version: '21'
 
       - name: Minecraft Server Setup
-        env:
-          SERVER_PORT: ${{ secrets.SERVER_PORT }}
         run: |
           # Get the IP address dynamically
           IP_ADDRESS=$(hostname -I | cut -d' ' -f1)
