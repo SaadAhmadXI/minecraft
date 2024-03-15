@@ -11,21 +11,21 @@ jobs:
 
     steps:
       - name: Checkout code
-        uses: actions/checkout@v3  # Update to use the latest version of actions/checkout
+        uses: actions/checkout@v3
 
       - name: Set up Java
-        uses: actions/setup-java@v3  # Update to use the latest version of actions/setup-java
+        uses: actions/setup-java@v3
         with:
           distribution: 'adopt'
-          java-version: '21'  # Install Java 21 for running the Minecraft server
+          java-version: '21'
 
       - name: Minecraft Server Setup
         env:
-          SERVER_IP: ${{ secrets.SERVER_IP }}
           SERVER_PORT: ${{ secrets.SERVER_PORT }}
         run: |
-          echo "Server IP address: $SERVER_IP"
+          # Get the IP address dynamically
+          IP_ADDRESS=$(hostname -I | cut -d' ' -f1)
+          echo "Server IP address: $IP_ADDRESS"
           echo "Server port: $SERVER_PORT"
-
           # Additional setup commands for starting the Minecraft server
           java -Xmx1024M -Xms1024M -jar server.jar nogui
