@@ -1,0 +1,17 @@
+name: Keep Replit Site Alive
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  keep-alive:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Send Request to Replit Site
+        run: curl -s https://your-replit-site-url
+        continue-on-error: true
+        timeout-minutes: 1
+        if: always()
