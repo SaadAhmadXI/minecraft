@@ -11,7 +11,7 @@ jobs:
 
     steps:
       - name: Send Request to Replit Site
-        run: curl -s https://your-replit-site-url
+        run: curl -s https://replit.com/@1saad1ahmad1/Minecraft-Afk-Bot
         continue-on-error: true
         timeout-minutes: 1
         if: always()
